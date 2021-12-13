@@ -1,5 +1,17 @@
 import random
 
+"""
+My Approch
+
+- Define lowercase, uppercase, digit, punctuation characters list
+- generate an random array with length beetween (8, 32)
+- place different character type in the array randomly and make sure it contains 1 least all the type of character
+- loop array and get random characters from current character type
+  + Check its this caractère existance only 2 times not more. and append it to password
+
+
+"""
+
 passwords = []
 
 lowerCase = "abcdefghijklmnopqrstuvwxyz"
